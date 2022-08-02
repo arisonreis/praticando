@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+                   
+<!--header-->
+<header>
+    <div id="div_sol">
+        <span id="cor"></span>
+    </div>
+                              
+   <span id="estrelas"> <h1 id="h1"> HORA DO DIA </h1> </span>
+    
+   <nav id="nav">
+       <img src="instagram02.webp" id="img-nav" onclick="migrar();">
+       <ul id="ul">
+           <li id="li"> <a id="github" href='https://github.com/arisonreis' target="_blank"> Github</a></li>
+        <ul>
+   </nav>
+                                                   
+</header>
+<!--header-->   
+
+
+<!--MAIN ABAIXO-->
+<main>
+     
+    
+    <section id="section-garoto">
+        <article id="back-garoto">
+          <p id="p-garoto">As cores e imagens<br> mudam de acordo<br> com a hora</p>
+        </article>
+
+    <article id="aticle-garoto">
+     <img id="garoto" src="garoto.webp" onmouseover="over()" onmouseout="out()" >
+     </article>
+    </section>
+
+
+    <section id="principal">
+    <article id="cima">
+    </article>
+
+    <section id="status">
+        <div id="perfil" onclick="animar()">
+        </div> 
+        </section>
+     
+        <section id="baixo">
+            <h3 id="h3">Digite a hora :</h3>
+            <input type="time" id="input" name="input" max="00:00" min="5:00" required>
+            <button id="btn1" type="button" onclick="transformar()" >Transformar</button>
+            <button id="btn3" onclick="voltar()">Voltar</button>
+        </section>
+        
+ 
+    </section>
+
+
+
+
+</main>
+<!--MAIN-->
+
+<!--footer-->
+<footer>
+ <article id="texto">  <p id="p-footer" >acima você digita a hora que deseja, e logo descrubra um cenário</p>
+    </article>
+
+    <article id="botão">
+    <button id="btn2" type="button">Feedback</button>
+</article>
+</footer>
+<!--footer-->
+
+
+
+</body>
+</html>

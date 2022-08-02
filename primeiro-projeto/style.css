@@ -1,0 +1,299 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Righteous&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body {
+  background: #29b6f6;
+}
+
+#div_sol {
+  background: yellow;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  position: relative;
+  left: -40px;
+  bottom: 37px;
+  border: 2px solid white;
+  display: flex;
+  justify-content: center;
+}
+#sol {
+  width: 190px;
+  margin-left: 12px;
+  margin-top: 4px;
+}
+#sol:hover {
+  transform: scale(1.1, 1.1);
+}
+
+#cor {
+  background-image: url(sol.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+  height: 160px;
+  margin-top: 10px;
+}
+
+h1 {
+  color: white;
+  font-family: "Righteous", cursive;
+  font-size: 50px;
+  transform: scale(1.1, 1.1);
+  margin-bottom: 20px;
+  margin-right: 13px;
+  cursor: pointer;
+}
+
+#nav,
+#ul#li,
+a,
+#img-nav {
+  color: white;
+  display: flex;
+  align-items: center;
+  font-family: "righteous", cursive;
+  font-size: 30px;
+  gap: 10px;
+  cursor: pointer;
+}
+
+#nav {
+  margin-bottom: 140px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+a:hover {
+  border-radius: 20%;
+  transform: scale(1.05, 1.205);
+}
+
+#img-nav {
+  width: 50px;
+}
+
+#img-nav:hover {
+  transform: scale(1.1, 1.1);
+}
+
+/*header acima*/
+
+/*main abaixo*/
+
+main {
+  display: flex;
+  margin: 20px;
+}
+
+#section-garoto {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+}
+
+#garoto {
+  width: 100px;
+  margin-top: -20px;
+}
+#garoto:hover {
+  transform: scale(1.1, 1.1);
+  cursor: pointer;
+}
+
+#psm {
+  width: 100px;
+}
+#psm:hover {
+  transform: scale(1.1, 1.1);
+}
+
+#back-garoto {
+  background-image: url("pensamentos.webp");
+  background-repeat: no-repeat;
+  background-size: 180px;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  width: 180px;
+  cursor: pointer;
+}
+
+p {
+  font-family: "Righteous", cursive;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  color: #000000;
+  margin-top: 20px;
+}
+
+#principal {
+  width: 600px;
+  height: 400px;
+  background: #ffffff;
+  border-radius: 40px;
+  margin-left: 10%;
+  margin-top: -40px;
+}
+
+#cima {
+  padding: 12px;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+#relogio {
+  width: 100px;
+  cursor: pointer;
+}
+#relogio:hover {
+  transform: scale(1.1, 1.1);
+}
+
+h2 {
+  font-family: "Righteous", cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #000000;
+}
+
+#status {
+  display: flex;
+  justify-content: center;
+}
+
+#perfil {
+  width: 200px;
+  height: 200px;
+  background-image: url(manhã.jpg);
+  background-size: 180%;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center right;
+  cursor: pointer;
+  box-shadow: 1px 1px 1px;
+}
+
+#perfil:hover {
+  transform: scale(1.1, 1.1);
+}
+
+#baixo {
+  margin-top: 20px;
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h3 {
+  font-family: "Righteous", cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: #000000;
+}
+
+#input {
+  border: 2px solid black;
+  border-radius: 5px;
+  font-size: 14pt;
+  font-family: "righteous", cursive;
+  font-style: normal;
+  font-weight: normal;
+  cursor: pointer;
+  color: red;
+}
+
+#btn1 {
+  font-family: "Righteous", cursive;
+  border: 2px solid black;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14pt;
+  color: white;
+  background: #29b6f6;
+  width: 132px;
+  height: 33px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+#btn1:hover {
+  transform: scale(1.1, 1.1);
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#p-footer {
+  color: black;
+  font-size: 16px;
+  padding-bottom: 10px;
+  color: red;
+  font-family: "Righteous", cursive;
+}
+
+#btn2 {
+  background: yellow;
+  color: black;
+  height: 30px;
+  width: 120px;
+  font-family: "Righteous", cursive;
+  border: 2px solid black;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15pt;
+  border-radius: 10px;
+}
+#btn2:hover {
+  cursor: pointer;
+  transform: scale(1.1, 1.1);
+}
+
+#texto {
+  margin-left: 480px;
+}
+
+#botão {
+  margin-right: 20px;
+}
+
+
+#btn3{
+  font-family: "Righteous", cursive;
+  border: 2px solid black;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14pt;
+  color: white;
+  background: #29b6f6;
+  width: 132px;
+  height: 33px;
+  border-radius: 10px;
+  cursor: pointer;
+  display:none; 
+}#btn3:hover{
+  transform: scale(1.1,1.1)
+}

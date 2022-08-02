@@ -1,0 +1,180 @@
+@media (max-width: 759px) {
+  #header #nav #btn-mobile {
+    display: flex;
+    justify-content: center;
+  }
+  #header #nav #btn-mobile #hamburguer {
+    width: 20px;
+    height: 3px;
+    border-top: 3px solid black;
+    display: block;
+  }
+
+  #header #nav #btn-mobile #hamburguer {
+    margin-bottom: 17px;
+  }
+  #header #nav #btn-mobile #hamburguer::after {
+    width: 20px;
+    height: 3px;
+    content: "";
+    display: block;
+    border-top: 3px solid currentColor;
+    margin-top: 4px;
+    transition: 0.5s;
+  }
+
+  #header #nav #btn-mobile #hamburguer::before {
+    width: 20px;
+    transition: 0.5s;
+    height: 3px;
+    content: "";
+    display: block;
+    border-bottom: 3px solid currentColor;
+  }
+  
+  #header #nav.active #btn-mobile #hamburguer {
+    border-top-color: transparent;
+  }
+
+  #header #nav.active #btn-mobile:hover {
+    background: none;
+  }
+
+  #nav.active #hamburguer::after {
+    transition: 0.5s;
+    transform: rotate(135deg);
+    position: relative;
+    top: -12px;
+  }
+  #nav.active #hamburguer::before {
+    transition: 0.5s;
+    transform: rotate(-135deg);
+    margin-top: 2px;
+  }
+  #header #nav #menu {
+    display: none;
+  }
+  #header #nav.active #menu {
+    display: block;
+    height: calc(100vh - 69px);
+    width: 100%;
+    position: absolute;
+    top: 69px;
+    left: 0;
+    z-index: 1000;
+    background-color: white;
+    transition: 0.5s;
+  }
+  #header #nav.active #menu .li {
+    width: 100%;
+    height: max-content;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    padding: 10px 40%;
+    font-size: 4rem;
+    cursor: pointer;
+  }
+  #header #nav.active #menu .li:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+
+  #header {
+    width: 100%;
+  }
+  #main #content1-main {
+    background-size: 80% 100%;
+
+  }
+
+  #header #box-icons {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  
+  #header #box-icons #singin {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px 1px;
+    gap: 10px;
+    width: 80px;
+    height: 30px;
+    background: #f44a25;
+    border-radius: 25px;
+    border: none;
+    color: white;
+    font-family: "Fira Sans", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 19px;
+  }
+  
+  #main.active{
+    display: none;
+  }
+
+}
+
+@media (max-width: 774px) and (max-width: 800px) {
+  #main #content-2-main #cards-buy {
+    height: auto;
+    margin: 0 auto;
+    flex-direction: column;
+    padding-bottom: 40px;
+    gap: 50px;
+  }
+
+  #main #content-2-main #cards-buy .card {
+    width: 90%;
+    height: 100%;
+    display: block;
+  }
+
+  #main #content1-main {
+    background-size: 100% 100%;
+    background-position: right;
+    margin: 20px auto;
+    height: 550px;
+  }
+
+  #main #content1-main #content1-section-1-main #h1 {
+    font-size: 6vw;
+  }
+
+  #main #content1-main #content1-section-1-main #h2 {
+    font-size: 3vw;
+  }
+
+  #main #content1-main #content1-section-1-main #h1 {
+    font-size: 9vw;
+  }
+
+  #main #content1-main #content1-section-1-main #h2 {
+    font-size: 5vw;
+  }
+
+  #text-content1-section-1-main {
+    max-width: 70%;
+  }
+
+  #content1-section-1-main {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    height: 100%;
+    background: linear-gradient(
+      270deg,
+      #ffffff 25.52%,
+      rgba(255, 255, 255, 0.94) 39.28%,
+      rgba(255, 255, 255, 0.73) 57.22%,
+      rgba(255, 255, 255, 0) 87.25%
+    );
+    mix-blend-mode: normal;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    background-size: 100% 100%;
+    background-position-y: 0px;
+  }
+  
+}

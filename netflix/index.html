@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Netflix</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+<body>
+  <div id="container">
+    <header id="header">
+      <div id="box-logo"></div>
+
+      <nav id="nav">
+        <select name="languages" id="languages">
+          <option value="ptbr">Português</option>
+          <option value="en">English</option>
+        </select>
+        <button id="btn">Entrar</button>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section id="container1">
+        <section id="box-h1">
+          <span id="span">
+            <h1 id="h1">Filmes, séries e muito mais. Sem limites.</h1>
+            <h2 id="h2">Assista onde quiser. Cancele quando quiser.</h2>
+            <span id="absolute-h3">
+              <h3 id="h3">Pronto para assistir? Informe seu email para criar ou reiniciar sua assinatura.</h3>
+            </span>
+          </span>
+        </section>
+        <section id="box-form">
+          <form action="" id="form">
+            <input type="email" id="input" placeholder="Email">
+            <button id="btn-form">Vamos lá <i class="bi bi-chevron-right"> <svg id="svg"
+                  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-chevron-right" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd"
+                    d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                </svg></i> </button>
+          </form>
+        </section>
+      </section>
+
+      <div id="tudo">
+
+        <!--ABAIXO SECTION 1 (CONTEÚDO 1)-->
+        <section id="content-1">
+          <div id="box-1">
+            <h1 id="h1-box">Aproveite na TV.</h1>
+            <h2 id="h2-box">
+              Assista em Smart TVs, PlayStation, Xbox, <br> Chromecast, Apple TV, aparelhos de Blu-ray e <br> outros
+              dispositivos.
+            </h2>
+          </div>
+
+          <div id="box-tv">
+            <video class="video" data-uia="our-story-card-video" autoplay="" playsinline="" muted="" loop="">
+              <source src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-0819.m4v"
+                type="video/mp4">
+            </video>
+            <div>
+              <img id="tv" src="img/tv.png" alt="">
+              <div>
+              </div>
+        </section>
+
+        <!--ABAIXO SECTION 2 (CONTEÚDO 2)-->
+        <section id="content-2">
+          <!-- Caida da esquerda -->
+          <div id="box1-2">
+            <div id="box-background">
+              <div id="box-download">
+                <img id="stranger-img"
+                  src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/boxshot.png">
+                <div id="text-stranger">
+                  <div id="text-1">
+                    Stranger Things
+                  </div>
+                  <div id="text-2">
+                    Downloading...
+                  </div>
+                </div>
+                <div id="box-gif">
+                  <img id="gif" src="img/download.gif">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- CAIXA DADIREITA  -->
+          <div id="box2-2">
+            <div id="box-texts">
+              <h1 id="h1-box-2">
+                Baixe séries para assistir offline.
+              </h1>
+
+              <h2 id="h2-box-2">
+                Salve seus títulos favoritos e sempre tenha algo para assistir.
+              </h2>
+            </div>
+          </div>
+        </section>
+
+        <!--ABAIXO SECTION 3 (CONTEÚDO 3)-->
+        <section id="content-3">
+          <div id="content-center">
+            <div id="container-content-3">
+              <div id="text-esquerda">
+                <h1 id="h1-content-3">
+                  Assista quando quiser.
+                </h1>
+                <h2 id="h2-content-2">
+                  Assista no celular, tablet, Smart TV ou <br> notebook sem pagar a mais por isso.
+                </h2>
+              </div>
+              <div id="background-img-tv">
+                <img id="img-tv"
+                  src="	https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/device-pile.png">
+                <div id="box-video">
+                  <video id="video" class="our-story-card-video" data-uia="our-story-card-video" autoplay=""
+                    playsinline="" muted="" loop="">
+                    <source
+                      src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-devices.m4v"
+                      type="video/mp4">
+                  </video>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!--ABAIXO SECTION 4 (CONTEÚDO 4)-->
+        <section id="content-4">
+          <div id="container-content-4">
+            <div id="container-animation-image">
+              <div id="box-content-image">
+                <img alt="" class="our-story-card-img"
+                  src="https://occ-0-5309-3852.1.nflxso.net/dnm/api/v6/19OhWN2dO19C9txTON9tvTFtefw/AAAABWGB3YOpSh2wA7OOZQYD-MkalQ0oJEy-YEEpoPKAIenLtZf5lKeERDdKj-u6WnZx9wx_QuiDVHkGM_1QmVQt9yxM7mKjevBNHKFz.png?r=1b8"
+                  data-uia="our-story-card-img">
+                <div class="our-story-card-animation" data-uia="our-story-card-animation">
+                  <div class="our-story-card-animation-text">
+                  </div>
+                  <div class="our-story-card-animation-custom" data-uia="our-story-card-custom" aria-hidden="true">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div id="card-text-content-4">
+              <h1 id="h1-content-4">
+                Crie perfis para crianças.
+              </h1>
+
+              <h2 id="h2-content-4">
+                Deixe as crianças se aventurarem com seus personagens favoritos em um espaço feito só para elas, sem
+                pagar a mais por isso.
+              </h2>
+            </div>
+          </div>
+        </section>
+
+        <!--ABAIXO SECTION 5 (CONTEÚDO 5  )-->
+        <section id="content-5">
+          <div id="container-text">
+
+            <h1 id="h1-content-5">
+              Perguntas frequentes
+            </h1>
+
+            <ul id="ul">
+              <li class="li">
+                <button class="button">
+                  Oque é a Netflix?
+                  <svg class="svg" viewBox="0 0 26 26" focusable="true">
+                    <path
+                      d="M10.5 9.3L1.8 0.5 0.5 1.8 9.3 10.5 0.5 19.3 1.8 20.5 10.5 11.8 19.3 20.5 20.5 19.3 11.8 10.5 20.5 1.8 19.3 0.5 10.5 9.3Z">
+                    </path>
+                  </svg>
+                </button>
+              </li>
+
+              <li class="li">
+                <button class="button">
+                  Quanto custa a Netflix?
+                  <svg class="svg" viewBox="0 0 26 26" focusable="true">
+                    <path
+                      d="M10.5 9.3L1.8 0.5 0.5 1.8 9.3 10.5 0.5 19.3 1.8 20.5 10.5 11.8 19.3 20.5 20.5 19.3 11.8 10.5 20.5 1.8 19.3 0.5 10.5 9.3Z">
+                    </path>
+                  </svg>
+                </button>
+              </li>
+
+              <li class="li">
+                <button class="button">
+                  Onde posso assistir?
+                  <svg class="svg" viewBox="0 0 26 26" focusable="true">
+                    <path
+                      d="M10.5 9.3L1.8 0.5 0.5 1.8 9.3 10.5 0.5 19.3 1.8 20.5 10.5 11.8 19.3 20.5 20.5 19.3 11.8 10.5 20.5 1.8 19.3 0.5 10.5 9.3Z">
+                    </path>
+                  </svg>
+                </button>
+              </li>
+
+              <li class="li">
+                <button class="button">
+                  Como faço para cancelar?
+                  <svg class="svg" viewBox="0 0 26 26" focusable="true">
+                    <path
+                      d="M10.5 9.3L1.8 0.5 0.5 1.8 9.3 10.5 0.5 19.3 1.8 20.5 10.5 11.8 19.3 20.5 20.5 19.3 11.8 10.5 20.5 1.8 19.3 0.5 10.5 9.3Z">
+                    </path>
+                  </svg>
+                </button>
+              </li>
+
+              <li class="li">
+                <button class="button">
+                  Oque eu posso assistir na Netflix?
+                  <svg class="svg" viewBox="0 0 26 26" focusable="true">
+                    <path
+                      d="M10.5 9.3L1.8 0.5 0.5 1.8 9.3 10.5 0.5 19.3 1.8 20.5 10.5 11.8 19.3 20.5 20.5 19.3 11.8 10.5 20.5 1.8 19.3 0.5 10.5 9.3Z">
+                    </path>
+                  </svg>
+                </button>
+              </li>
+
+              <li class="li">
+                <button class="button">
+                  A Netflix é adequada para crianças?
+                  <svg class="svg" viewBox="0 0 26 26" focusable="true">
+                    <path
+                      d="M10.5 9.3L1.8 0.5 0.5 1.8 9.3 10.5 0.5 19.3 1.8 20.5 10.5 11.8 19.3 20.5 20.5 19.3 11.8 10.5 20.5 1.8 19.3 0.5 10.5 9.3Z">
+                    </path>
+                  </svg>
+                </button>
+              </li>
+            </ul>
+
+            <section id="box-form2">
+              <h3 id="h3-content-5">Pronto para assistir? Informe seu email para criar ou reiniciar sua assinatura.</h3>
+              <form action="" id="form">
+                <input type="email" id="input" placeholder="Email">
+                <button id="btn-form">Vamos lá <i class="bi bi-chevron-right"> <svg id="svg"
+                      xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                      class="bi bi-chevron-right" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd"
+                        d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                    </svg></i> </button>
+              </form>
+            </section>
+          </div>
+        </section>
+
+        <footer id="footer">
+          <div id="content-footer">
+            <div id="content-center-footer">
+              <p id="p-footer">
+                Dúvidas? Ligue 0800 591 8942
+              </p>
+              <ul id="ul2">
+                <li class="li-2"> <a class="a-li-2" href="/">Perguntas frequentes</a></li>
+                <li class="li-2"> <a class="a-li-2" href="/">Centro de ajuda</a></li>
+                <li class="li-2"> <a class="a-li-2" href="/">Conta</a></li>
+                <li class="li-2"> <a class="a-li-2" href="/">Media Center</a></li>
+                <li class="li-2"> <a class="a-li-2" href="/">Relações com investidores</a></li>
+                <li class="li-2"> <a class="a-li-2" href="/">Carreiras</a></li>
+                <li class="li-2"> <a class="a-li-2" href="/">Resgatar cartão pré pago</a></li>
+                <li class="li-2"> <a class="a-li-2" href="/">Comprar cartão pré-pago</a></li>
+                <li class="li-2"> <a class="a-li-2" href="/">Formas de assistir</a></li>
+                <li class="li-2"> <a class="a-li-2" href="/">Termos de uso</a></li>
+                <li class="li-2"> <a class="a-li-2" href="/">Privacidade</a></li>
+                <li class="li-2"> <a class="a-li-2" href="/">Preferências de coockies</a></li>
+                <li class="li-2"> <a class="a-li-2" href="/">Informações corporativas</a></li>
+                <li class="li-2"> <a class="a-li-2" href="/">Entre em contato</a></li>
+                <li class="li-2"> <a class="a-li-2" href="/">Teste de velocidade</a></li>
+                <li class="li-2"> <a class="a-li-2" href="/">Avisos legais</a></li>
+                <li class="li-2"> <a class="a-li-2" href="/">Só na Netflix</a></li>
+              </ul>
+
+              <select data-uia="language-picker" class="ui-select medium" id="lang-switcher-select" tabindex="0" placeholder="lang-switcher">
+              <option selected="" lang="pt" value="/br/" data-language="pt" data-country="BR">Português</option>
+              <option lang="en" value="/br-en/" data-language="en" data-country="BR">English</option>
+              </select>
+              <p id="p-fim">Netflix Brasil</p>
+            </div>
+          </div>
+        </footer>
+      </div>
+      </section>
+</div>
+</section>
+</main>
+</div>
+</body>
+</html>

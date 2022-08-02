@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NiceJob</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <header id="header">
+      <img id="logo" src="img/logo.png" alt="" />
+      <span id="content-input">
+   <button id="pesquisar-mobile" onclick="pesquisarMbl()"><img class="lupa" src="img/lupa.png" alt="" /></button> 
+        <input
+          type="text"
+          name=""
+          id="input"
+          placeholder="Procure Funcionários"
+        />
+        <button id="pesquisar" onclick="pesquisar()">Pesquisar</button>
+      </span>  
+      <div id="content-header">
+        <nav id="nav">
+          <button id="btn-mobile" onclick="toggleMenu()">
+            <span id="hamburguer"></span>
+          </button>          
+          <ul id="menu">
+          <button id="btn-home">
+            <p>Home</p>
+            <img id="img-home" src="img/home.png" alt="" />
+          </button>
+          <!---->
+          <button id="btn-idioma">
+            <p>Idioma</p>
+            <img id="img-idioma" src="img/idioma.png" alt="" />
+          </button>
+          <!---->
+          <button id="btn-cadastrar">
+            <p>Cadastrar</p>
+            <img id="img-cadastrar" src="img/cadastrar.png" alt="" />
+          </button>
+          <!---->
+          <button id="btn-perfil">
+            <p>Perfil</p>
+            <img id="img-perfil" src="img/perfil.png" alt="" />
+          </button>
+        </ul>
+          <!---->
+        </nav>
+      </div>
+    </header>
+    <!--header acima-->
+
+    <main id="main">
+      <article id="box-h1">
+        <h1 id="h1">Olá,</h1>
+        <h2 id="nome-empresa">Nome Da Empresa</h2>
+        <img id="mão" src="img/mão.png" alt="" />
+      </article>
+
+      <article id="box-dados">
+        <h2 id="dados">Seus dados</h2 span>
+        <img id="img-dados" src="img/seta-bottom.png" alt="" />
+      </article>
+
+      <section id="container">
+        <section id="funcionalidades">
+          <button id="pg">
+            <img id="img-pagamentos" src="img/dinheiro .png" alt="" />
+            <p class="p">Pagamentos</p>
+          </button>
+          <button id="ct">
+            <img id="img-contratos" src="img/contratos.png" alt="" />
+            <p class="p">Contratos</p>
+          </button>
+          <button id="cr">
+            <img id="img-cargos" src="img/cargos.png" alt="" />
+            <p class="p">Cargos</p>
+          </button>
+          <button id="edit">
+            <img id="img-editar" src="img/editar.png" alt="" />
+            <p class="p">Editar</p>
+          </button>
+          <button id="ver">
+            <img id="img-ver-apenas" src="img/ver-apenas.png" />
+            <p class="p">Ver apenas</p>
+          </button>
+        </section>
+
+        <section id="funcionarios">
+          <div class="text-top">
+            <h2 class="h2-funcionarios">Funcionários</h2>
+            <img id="img-funcionarios" src="img/funcionarios.png" alt="" />
+          </div>
+
+          <div id="content-names">
+            <article class="box-names">
+              <p class="p-names">Name:</p>
+              <span></span>
+            </article>
+            <article class="box-names">
+              <p class="p-names">Name:</p>
+              <span></span>
+            </article>
+            <article class="box-names">
+              <p class="p-names">Name:</p>
+              <span></span>
+            </article>
+            <article class="box-names">
+              <p class="p-names">Name:</p>
+              <span></span>
+            </article>
+            <article class="box-names">
+              <p class="p-names">Name:</p>
+              <span></span>
+            </article>
+            <article class="box-names">
+              <p class="p-names">Name:</p>
+              <span></span>
+            </article>
+            <article class="box-names">
+              <p class="p-names">Name:</p>
+              <span></span>
+            </article>
+            <article class="box-names">
+              <p class="p-names">Name:</p>
+              <span></span>
+            </article>
+            <article class="box-names">
+              <p class="p-names">Name:</p>
+              <span></span>
+            </article>
+          </div>
+          <p id="total">
+            Total:
+            <span></span>
+          </p>
+        </section>
+
+        <section class="cargos">
+          <div class="text-top">
+            <h2 class="h2-funcionarios">Cargo</h2>
+            <img id="img-cargos" src="img/cargo.png" alt="" />
+          </div>
+
+          <div id="content-cargos">
+            <article class="box-cargos">
+              <p class="p-names">Job</p>
+            </article>
+            <article class="box-cargos">
+              <p class="p-names">Job</p>
+            </article>
+            <article class="box-cargos">
+              <p class="p-names">Job</p>
+            </article>
+            <article class="box-cargos">
+              <p class="p-names">Job</p>
+            </article>
+            <article class="box-cargos">
+              <p class="p-names">Job</p>
+            </article>
+            <article class="box-cargos">
+              <p class="p-names">Job</p>
+            </article>
+            <article class="box-cargos">
+              <p class="p-names">Job</p>
+            </article>
+            <article class="box-cargos">
+              <p class="p-names">Job</p>
+            </article>
+            <article class="box-cargos">
+              <p class="p-names">Job</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="cargos">
+          <div class="text-top">
+            <h2 class="h2-funcionarios">Período</h2>
+            <img id="img-periodo" src="img/periodo.png" alt="" />
+          </div>
+
+          <div id="content-periodo">
+            <article class="box-periodo">
+              <p class="p-names">Período</p>
+              <span></span>
+            </article>
+
+            <article class="box-periodo">
+              <p class="p-names">Período</p>
+              <span></span>
+            </article>
+
+            <article class="box-periodo">
+              <p class="p-names">Período</p>
+              <span></span>
+            </article>
+
+            <article class="box-periodo">
+              <p class="p-names">Período</p>
+              <span></span>
+            </article>
+
+            <article class="box-periodo">
+              <p class="p-names">Período</p>
+              <span></span>
+            </article>
+
+            <article class="box-periodo">
+              <p class="p-names">Período</p>
+              <span></span>
+            </article>
+
+            <article class="box-periodo">
+              <p class="p-names">Período</p>
+              <span></span>
+            </article>
+            <article class="box-periodo">
+              <p class="p-names">Período</p>
+              <span></span>
+            </article>
+            <article class="box-periodo">
+              <p class="p-names">Período</p>
+              <span></span>
+            </article>
+          </div>
+        </section>
+      </section>
+      
+      <section id="ver-todos">
+        <button id="btn-ver">Ver todos os Dados</button>
+      </section>
+      
+    </main>
+  </body>
+</html>

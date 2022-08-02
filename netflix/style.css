@@ -1,0 +1,652 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  letter-spacing: 0 !important;
+}
+
+body {
+  background-image: url(img/back1.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+
+#header {
+  display: flex;
+  padding: 28px 50px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+#nav {
+  display: flex;
+  gap: 2rem;
+}
+
+#box-logo {
+  background-image: url(img/logo.png);
+  height: 145px;
+  width: 145px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#container {
+  height: 100vh;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  background-image: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.8) 0,
+    transparent 60%,
+    rgba(0, 0, 0, 0.8)
+  );
+}
+
+#languages {
+  height: 2rem;
+  width: 6.5rem;
+  background-color: transparent;
+  color: white;
+  font-size: 16px;
+}
+
+#languages option {
+  background-color: gray;
+}
+
+#btn {
+  height: 2rem;
+  width: 5.2rem;
+  padding: 5px 10px;
+  background-color: red;
+  border: none;
+  color: white;
+  border-radius: 2px;
+}
+
+#container1 {
+  height: calc(100vh - 201px);
+  width: 100%;
+  border-bottom: 8px solid #222;
+}
+
+#box-h1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+#span {
+  max-width: 740px;
+}
+
+#h1 {
+  color: white;
+  display: block;
+  font-size: 3.125rem;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+  text-align: center;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+#h2 {
+  font-size: 1.625rem;
+  font-weight: 400;
+  color: white;
+  margin-block-start: 0.43em;
+  display: block;
+  -webkit-font-smoothing: antialiased;
+  text-align: center;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+#absolute-h3 {
+  width: 900px;
+  position: absolute;
+}
+
+#h3 {
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 23px;
+  display: block;
+  font-size: 1.27em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  color: white;
+  margin-left: 9px;
+}
+
+#box-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 64px;
+  padding: 0 20px;
+}
+
+#form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#input {
+  height: 60px;
+  width: 40%;
+  border: none;
+  outline: none;
+  padding: 7px;
+}
+
+#btn-form {
+  background-color: #e50914;
+  background-image: linear-gradient(180deg, #e50914, #db0510);
+  box-shadow: 0 1px 0 rgb(0 0 0 / 45%);
+  color: #fff;
+  height: 60px;
+  border: none;
+  width: 140px;
+  color: white;
+  font-size: 1.2rem;
+  font-family: Netflix Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+#svg {
+  width: 19px;
+  height: 38px;
+}
+
+#tudo {
+  display: flex;
+  flex-direction: column;
+  background: black;
+}
+
+#content-1 {
+  width: 100%;
+  height: 500px;
+  background-color: black;
+  display: flex;
+}
+
+#content-2 {
+  display: flex;
+  width: 100%;
+  height: 450px;
+  background-color: black;
+  border-top: 8px solid #222;
+  align-items: center;
+}
+
+#h1-box {
+  color: white;
+  font-size: 3.125rem;
+  line-height: 1.1;
+  margin-bottom: 0.5rem;
+  margin: 0 0 0.4em;
+  font-family: Netflix Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+#h2-box {
+  font-size: 1.725rem;
+  font-weight: 400;
+  color: white;
+  font-family: Netflix Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+#box-1 {
+  width: 100%;
+  height: 500px;
+  width: 55%;
+  padding-top: 140px;
+  padding-left: 110px;
+  padding-right: 0px;
+  position: relative;
+}
+
+#tv {
+  position: absolute;
+  width: 540px;
+  margin-right: 800px;
+  margin-top: 50px;
+  margin-right: 40px;
+}
+
+.video {
+  position: absolute;
+  padding-top: 135px;
+  width: 470px;
+  padding-left: 72px;
+}
+
+#box1-2 {
+  width: 50%;
+  height: 100%;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  padding-left: 30px;
+}
+
+#box2-2 {
+  width: 50%;
+  height: 100%;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+#celular {
+  width: 80%;
+  padding-left: 30px;
+}
+
+#box-background {
+  width: 500px;
+  height: 380px;
+  background-image: url(img/celular.jpg);
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+}
+
+#box-download {
+  width: 60%;
+  gap: 10px;
+  height: max-content;
+  align-items: center;
+  background: #000;
+  border: 2px solid hsla(0, 0%, 100%, 0.25);
+  border-radius: 0.75em;
+  bottom: 8%;
+  box-shadow: 0 0 2em 0 #000;
+  display: flex;
+  left: 50%;
+  min-width: 15em;
+  padding: 0.25em 0.65em;
+  margin-top: 53%;
+}
+
+#stranger-img {
+  height: 4.5em;
+}
+
+#text-stranger {
+  width: max-content;
+  height: max-content;
+}
+
+#text-1 {
+  color: white;
+  font-weight: 600;
+  font-size: 1em;
+  font-family: Netflix Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+#text-2 {
+  font-size: 0.9em;
+  color: #0071eb;
+  font-family: Netflix Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+#gif {
+  height: 3.75em;
+  padding-left: 18px;
+}
+
+#h1-box-2 {
+  font-size: 3.125rem;
+  line-height: 1.1;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  font-family: Netflix Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: white;
+  margin: 0 0 0.4em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+#h2-box-2 {
+  color: white;
+  font-size: 1.625rem;
+  font-weight: 400;
+  margin: 0.75em 0 0.25em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-family: Netflix Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+#box-texts {
+  width: 80%;
+  padding: 0.25em 0.65em;
+  margin-top: 10%;
+}
+
+#content-3 {
+  display: flex;
+  width: 100%;
+  height: 550px;
+  background-color: black;
+  border-top: 8px solid #222;
+}
+
+#content-center {
+  width: 100%;
+}
+
+#container-content-3 {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 4%;
+  gap: 17px;
+  padding-left: 50px;
+}
+
+#h1-content-3 {
+  font-size: 3.125rem;
+  line-height: 1.1;
+  margin-bottom: 0.5rem;
+  color: white;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  display: block;
+  margin: 0 0 0.4em;
+  font-family: Netflix Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+#h2-content-2 {
+  font-size: 1.625rem;
+  font-weight: 400;
+  margin: 0.75em 0 0.25em;
+  display: block;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  color: white;
+  font-family: Netflix Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+#img-tv {
+  border: 0;
+  height: auto;
+  width: 550px;
+  position: relative;
+  z-index: 2;
+}
+
+#box-video {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  z-index: 200px;
+  margin: -270px 270px;
+}
+
+#video {
+  width: 340px;
+}
+
+#content-4 {
+  display: flex;
+  width: 100%;
+  height: 450px;
+  background-color: black;
+  border-top: 8px solid #222;
+  padding: 70px 45px;
+}
+
+#container-content-4 {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1100px;
+  gap: 50px;
+}
+
+#container-animation-imag {
+  display: flex;
+  flex: 0 1 auto;
+  height: 100%;
+  width: 48%;
+}
+
+#box-content-image {
+  overflow: hidden;
+  position: relative;
+}
+
+img {
+  border: 0;
+  height: auto;
+  max-width: 100%;
+}
+
+#h1-content-4 {
+  font-size: 3.125rem;
+  line-height: 1.1;
+  margin-bottom: 0.5rem;
+  color: white;
+  margin: 0 0 0.4em;
+  display: block;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  font-family: Netflix Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+#h2-content-4 {
+  display: block;
+  color: #fff;
+  font-size: 1.625rem;
+  font-weight: 400;
+  margin: 0.75em 0 0.25em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-family: Netflix Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+#card-text-content-4 {
+  padding: 0 0 0 3rem;
+  flex: 0 1 auto;
+  height: 100%;
+  padding: 0 3rem 0 0;
+  width: 70%;
+  z-index: 3;
+  font-size: 1.625rem;
+  font-weight: 400;
+}
+
+#content-5 {
+  background: transparent;
+  color: #fff;
+  width: 100%;
+  border-top: 8px solid #222;
+  margin-bottom: 0;
+  padding: 50px 5%;
+  padding: 70px 45px;
+  text-align: center;
+  border-bottom: 8px solid #222;
+}
+
+#h1-content-5 {
+  font-size: 3.125rem;
+  line-height: 1.1;
+  margin-bottom: 0.5rem;
+  font-family: Netflix Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+#container-text {
+  font-size: 1.625rem;
+  font-weight: 400;
+}
+
+#ul {
+  margin: 2em auto;
+  width: 75%;
+}
+
+.li {
+  list-style-type: none;
+  margin: 0 0 8px;
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+
+.button {
+  border: 0;
+  font-weight: 400;
+  margin-bottom: 1px;
+  padding: 0.5em 2.2em 0.8em 1.2em;
+  width: 100%;
+  background: #303030;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+  -webkit-appearance: button;
+  cursor: pointer;
+  text-transform: none;
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+.svg {
+  transform: rotate(-45deg);
+  fill: #fff;
+  height: 1em;
+  right: 1em;
+  width: 1em;
+}
+
+#box-form2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 64px;
+  padding: 0 20px;
+}
+
+#h3-content-5 {
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  display: block;
+  font-size: 0.73em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  color: white;
+  margin-left: 9px;
+}
+#footer {
+  height: 500px;
+  background-color: black;
+  padding: 70px 45px;
+  margin: 0 auto;
+  width: 1000px;
+}
+
+#content-footer {
+  color: #737373;
+  font-size: 1em;
+  min-width: 190px;
+  padding-bottom: 20px;
+  position: relative;
+  width: 100%;
+}
+
+#content-center-footer {
+  width: 90%;
+  color: #737373;
+  font-size: 1em;
+}
+
+#p-footer {
+  margin: 0 0 30px;
+  padding: 0;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  color: #737373;
+  font-size: 1em;
+  padding-bottom: 10px;
+}
+
+#ul2 {
+  width: 1000px;
+  display: block;
+  padding: 0;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.li-2 {
+  font-size: 13px;
+  display: inline-block;
+  margin-bottom: 16px;
+  min-width: 100px;
+  padding: 0 12px 0 0;
+  vertical-align: top;
+  width: 23%;
+  text-align: -webkit-match-parent;
+  font-family: Netflix Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+#ul2,
+.li-2,
+.a-li-2 {
+  text-decoration: none;
+  list-style: none;
+  color: #737373;
+  cursor: pointer;
+}
+
+.ui-select.medium {
+  padding-right: 26px;
+  text-indent: 0;
+  line-height: 1.7;
+  padding-left: 50px;
+  background-color: #000;
+  background-image: none;
+  border: 1px solid #333;
+  color: #999;
+  font-size: 16px;
+  padding: 12px;
+  border-radius: 2px;
+  -webkit-rtl-ordering: logical;
+} 
+
+#p-fim{
+  padding-top: 20px;
+  font-size: 14px;
+}
